@@ -17,6 +17,10 @@ span{
 nav , .section1{
     background-color: var(--third);
 }
+.nav-link:hover{
+    color: var(--second) !important;
+
+}
 .follower{
     width: 45px;
     height: 45px;
@@ -50,10 +54,11 @@ a{
     border: lightgrey 1px solid;
     padding: 15px;
     margin: 10px;
-    transition: 0.3s ease-in;
+    transition: 0.5s ease;
 }
 .carde:hover{
     transform: translateY(-15px);
+    border: 1px solid gray;
 }
 .section3{
     background-color: var(--main);
